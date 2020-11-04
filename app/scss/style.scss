@@ -1,0 +1,262 @@
+@import 'vars';
+@import 'libs';
+@import 'fonts';
+@import 'global';
+
+@import 'media';
+
+.wrap {
+  background-color: #f5fafe;
+}
+.top-wrap {
+  margin-bottom: 40px;
+  padding: 25px 0px 25px 0px;
+}
+.menu-wrap {
+  background-color: #0a223d;
+  padding: 30px 0 30px 0;
+}
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.top-link {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  .search-panel {
+    display: flex;
+    align-items: center;
+    max-width: 635px;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    &::after {
+      content: '';
+      background-color: red;
+      position: absolute;
+      width: 65px;
+      height: 40px;
+      top: 0;
+      right: 0;
+      border-radius: 0px 6px 6px 0px;
+    }
+    input {
+      max-width: 350px;
+      width: 100%;
+      background-color: #f5fafe;
+      padding: 9px 0px 9px 25px;
+      border: none;
+      border-radius: 6px;
+    }
+  }
+  .user-items {
+    display: flex;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  a {
+    color: #ffffff;
+  }
+}
+
+.main-card {
+  margin-bottom: 70px;
+}
+.title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-wrap {
+  background-color: #0a223d;
+  width: 100%;
+  color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 4px;
+}
+.info-wrap,
+.booking {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-btn {
+  button {
+    text-align: center;
+    border: none;
+    background: #ec1f46;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 13px 0px;
+    width: 100%;
+  }
+}
+
+.main-tabs {
+  color: #333333;
+  margin-bottom: 40px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.small-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.summary-card {
+  background-color: #ffff;
+  border-radius: 4px;
+  margin-right: 30px;
+  width: 100%;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.card-title {
+  background-color: #0a223d;
+  color: #ffff;
+  border-radius: 4px 4px 0px 0px;
+  h4 {
+    padding: 15px 25px;
+  }
+}
+.card-list {
+  padding: 15px 25px;
+  font-size: 12px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+      width: calc(50% - 15px);
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.item-title {
+  font-size: 13px;
+  color: #ec1f46;
+}
+
+.item-list {
+  ul {
+    li {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 85px;
+}
+.main-items {
+  border: 1px dashed #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.main-summary-card {
+  margin-top: 20px;
+}
+.summary {
+  margin-bottom: 100px;
+}
+.title-card {
+  margin-bottom: 25px;
+}
+.card-content {
+  background: #0a223d;
+  color: #ffff;
+  padding: 30px;
+  margin-top: -3px;
+  border-radius: 0px 0px 8px 8px;
+}
+.info-card {
+  margin-bottom: 25px;
+  p {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.big-card {
+  display: flex;
+  width: 65% !important;
+  margin-right: 20px;
+  .card-content {
+    border-radius: 0px 8px 8px 0px !important;
+    margin-top: 0 !important;
+  }
+}
+
+.other-cards-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-card {
+  margin-bottom: 30px;
+  // width: 30%;
+
+  // overflow: hidden;
+}
+
+.other-title {
+  text-align: center;
+  margin-bottom: 65px;
+  h2 {
+    font-size: 36px;
+  }
+}
+
+.card-price-block {
+  display: flex;
+  justify-content: space-between;
+  .info-btn {
+    width: 50%;
+  }
+}
+
+.price-card {
+  span {
+    display: block;
+  }
+}
+
+.card-photo {
+  img {
+    height: 100%;
+  }
+}
