@@ -153,6 +153,7 @@
 .card-info {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .info {
@@ -460,7 +461,8 @@
 
 // SLIDER
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 785px;
+  width: 100%;
   position: relative;
   margin: auto;
 }

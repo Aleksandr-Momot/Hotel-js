@@ -73,3 +73,14 @@ function showSlidesPer(n) {
   }
   slidesPer[slideIndexPer - 1].style.display = "block";
 }
+
+
+// SLIDER-PERSON
+
+//tabs
+
+
+
+
+
+//tabs
